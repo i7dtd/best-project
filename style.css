@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    /* font-family: monospace; */
+    background-color: rgb(231, 231, 231);
+}
+
+.stpdBox {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.input {
+    border: 1px solid black;
+    padding: 6px 8px;
+    border-radius: 4px;
+    
+}
+
+.formPar {
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.formBtn {
+    margin-top: 12px;
+    font-weight: 450;
+    cursor: pointer;
+}
+.stpdPar {
+    font-size: 30px;
+    font-weight: 550;
+}
+
+#stpdOutput {
+    font-size: 25px;
+    font-weight: 300;
+}
